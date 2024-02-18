@@ -1,0 +1,4 @@
+Merge conflict adalah suatu masalah ketika satu atau lebih file yang sama memiliki commmit yang berbeda pada branch yang berbeda, sehingga ketika ingin dimerge dengan main branch terjadi konflik.
+Cara meresolve merge conflict:
+- Merubah file dengan text editor. Setelah itu staged perubahan dan lakukan commit.
+- Menghapus atau menambahkan kembali file yang mengalami konflik. Jika file dihapus, taambahkan file dengan command "git add <nama_file>". Jika file ada namun ingin dihapus, hapus dengan command "git rm <nama_file>".

@@ -1,0 +1,3 @@
+Ketika bekerja dengan repo milik orang lain, kita mungkin ingin menguji beberapa ide sebelum mengajukannya kepada pemilik repo. Cara melakukan pengujian itu adalah dengan membuat fork dari repo tersebut (disebut repo "upstream"). Lalu kita tinggal melakukan clone dari repo upstream ke fork repo pada local github project kita.
+
+Ketika perubahan sudah kita buat, kita dapat mengajukan pull request, yaitu suatu pengajuan untuk memasukkan perubahan yang sudah kita buat ke repo upstream. Fork kita nantinya akan disebut compare-branch.

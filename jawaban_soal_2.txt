@@ -1,0 +1,3 @@
+git rebase dapat digunakan untuk mengintegrasikan perubahan dari branch yang berbeda. Misalkan ada dua branch: branch master dan branch a. Git merge akan mengambil perubahan baru pada master ke commit yang kita buat di branch a. Sementara git rebase mengubah commit asal tempat kita melakukan branching ke suatu commit lain yang kita inginkan (misalnya master branch) dan lalu membuat commit baru yang kita buat pada branch master. 
+
+Setelah melakukan rebase tinggal melakukan fast-forward merge agar commit terakhir pada master branch menunjuk kepada ujung akhir branch a, sehingga history commit nya menjadi lebih rapih. 
