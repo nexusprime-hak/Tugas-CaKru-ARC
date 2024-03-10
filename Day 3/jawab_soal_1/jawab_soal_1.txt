@@ -1,0 +1,1 @@
+Library axios adalah suatu HTTP client untuk node.js dan browser berbasis promise. Axios bersifat isomorfik, yang artinya library ini dapat dijalankan pada client-side/browser dengan mengimplementasikan XMLHttpRequests dan server-side dengan menggunakan node.js.
